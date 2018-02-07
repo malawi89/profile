@@ -1,0 +1,147 @@
+#profile_pic {
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+
+}
+
+.interest-images{
+  width: 120px;
+
+}
+
+.container{
+  width: 900px;
+  margin: auto;
+}
+/*#E7475E*/
+.card{
+  border: 2px solid black;
+  /*background: linear-gradient(to left, #44a08d, #093637);*/
+  background: #FEF8E6;*/
+  margin: 15px auto;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 30px;
+  padding: 20px;
+  box-shadow: 2px 2px #888888;
+  opacity: 1;
+}
+
+body {
+  /*background-color: #EBEBEB;*/
+  background: linear-gradient(to bottom, #3e5151, #decba4);
+  font-family: 'Playfair Display', serif;
+  color: #8E1D41;
+  font-size: 20px;
+  line-height: 1.2em;
+
+}
+h1, h2, h3{
+  font-family: 'Merriweather', serif;
+  line-height: 1.5em;
+  color: #CF1B1B;
+  letter-spacing: 0.2em;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+a{
+  color: #CF1B1B;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#4D3664;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  }
+
+li{
+    display: inline-block;
+    font-size: 45px;
+  }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+#profile_head{
+  background: gray url(https://orig00.deviantart.net/2d9b/f/2013/127/d/c/geometry_pattern_3_by_muhammadbadi-d64hlkg.jpg) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-animation: slide 18s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+#profile_contact{
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-animation: slide 15s linear infinite;
+}
+
+#idols{
+  background: gray url(https://knowingneurons.com/wp-content/uploads/2016/01/image-png-3.jpeg) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-animation: slide 15s linear infinite;
+}
+
+#interests{
+  background: gray url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2gfJh3nxrOJpCoWHS4rchNH3RmETJ2fcx2zgIa-DlYzYAsQId) repeat 0 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+#idols img {
+  height:200px;
+  border-radius: 50%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+    z-index: 5;
+}
